@@ -15,7 +15,7 @@ body{
 		 height: 400px;
 		 margin: 10px;
 		 border: 2px solid #090903;
-		 float: center;
+		 float: left;
 		 font-size: 18px;
 		 color:#B8D68E;
 }
@@ -24,5 +24,5 @@ body{
  		 height: 100px;
 }
 h1{
-	    color: #FFAE00;
+	    color: #C9D0D2;
 		}		
