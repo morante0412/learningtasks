@@ -1,28 +1,28 @@
-
 body{
 	background-image: url(Untitled-1.jpg);
 	background-position: center;
 	background-size: cover;
 }
 #wrapper{
-		width: auto;
-		height: 500px;
-		padding: 2px;
-		border: 0;
+	background color: white;
+	width: auto;
+	height: 500px;
+	padding: 2px;
+	border: 0;
 }
 #wrapper div{
-		 width: 300px;
-		 height: 400px;
-		 margin: 10px;
-		 border: 2px solid #090903;
-		 float: left;
-		 font-size: 18px;
-		 color:#090903;
+	width: 300px;
+	height: 400px;
+	margin: 10px;
+	border: 2px solid #090903;
+	float: left;
+	font-size: 18px;
+	color:#090903;
 }
 #wrapper div img {
- 		 width: 200px;
- 		 height: 200px;
+ 	width: 200px;
+ 	height: 200px;
 }
 h1{
-	    color: #090903;
-		}		
+	color: #090903;
+}		
