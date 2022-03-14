@@ -11,11 +11,11 @@ body{
 		border: 0;
 }
 #wrapper div{
-		 width: 250px;
+		 width: 300px;
 		 height: 400px;
 		 margin: 10px;
 		 border: 2px solid #090903;
-		 float: none;
+		 float: left;
 		 font-size: 18px;
 		 color:#090903;
 }
