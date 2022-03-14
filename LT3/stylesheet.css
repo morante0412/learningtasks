@@ -15,7 +15,7 @@ body{
 		 height: 400px;
 		 margin: 10px;
 		 border: 2px solid #090903;
-		 float: left;
+		 float: none;
 		 font-size: 18px;
 		 color:#090903;
 }
