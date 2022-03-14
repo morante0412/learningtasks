@@ -15,7 +15,6 @@ body{
 	margin: 10px;
 	border: 2px solid #090903;
 	float: left;
-	.arial { font-family: Arial; }
 	font-size: 18px;
 	color:#090903;
 }
@@ -26,3 +25,4 @@ body{
 h1{
 	color: #090903;
 }		
+.arial { font-family: Arial; }
