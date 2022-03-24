@@ -10,8 +10,10 @@ body{
 	border: 0;
 }
 #wrapper div{
-	width: 400px;
-	height: 500px;
+	width: 300px;
+	height: 400px;
+	width: 500px;
+	height: 600px;
 	margin: 10px;
 	border: 2px solid #000000;
 	float: left;
@@ -19,8 +21,10 @@ body{
 	color:#000000;
 }
 #wrapper div img {
- 	width: 250x;
- 	height: 250x;
+ 	width: 250px;
+ 	height: 250px;
+ 	width: 450x;
+ 	height: 450px;
 }
 h1{
 	color: #000000;
