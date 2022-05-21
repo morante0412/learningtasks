@@ -1,0 +1,235 @@
+:root{
+   --matte: #28282B;
+   --matte2: #4E4E55;
+   --off: #FAF9F6;
+   --neon: #0FFF50;
+   --light-bg: #eee;
+   --border-bold: .5rem solid var(--matte2);
+   --border-light: .2rem solid var(--matte2);
+}
+
+*{
+   font-family: 'Courier New', monospace;
+   margin: 0; padding: 0;
+   box-sizing: border-box;
+   outline: none; border: none;
+   text-decoration: none;
+   text-transform: capitalize;
+   color: var(--off);
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+   scroll-behavior: smooth;   
+}
+
+body{
+   overflow: hidden;
+   transition: .2s linear !important;
+   background-color: var(--matte);
+}
+
+body.active{
+   padding-left: 35rem;
+}
+
+section{
+   padding: 3rem 2rem;
+   margin: 0 auto;
+   max-width: 1200px;
+   text-align: center;
+}
+
+.heading{
+   margin-bottom: 3rem;
+   text-align: center;
+}
+
+.heading span{
+   text-transform: uppercase;
+   font-size: 6.5rem;
+   border-bottom: var(--border-bold);
+}
+
+.message{
+   position: sticky;
+   top: 2rem;
+   max-width: 1200px;
+   margin: 0 auto;
+   background-color: var(--neon);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 2rem;
+   font-size: 2rem;
+}
+
+.message i{
+   cursor: pointer;
+}
+
+.btn{
+   display: inline-block;
+   margin-top: 1rem;
+   cursor: pointer;
+   padding: 1rem 3rem;
+   border: var(--border-light);
+   font-size: 2rem;
+   background: none;
+}
+
+.btn:hover{
+   background-color: var(--neon);
+   color: var(--matte);
+}
+
+.header{
+   position: fixed;
+   top: 0; left: -35rem;
+   height: 100vh;
+   background-color: var(--matte2);
+   border-right: var(--border-bold);
+   width: 35rem;
+   padding: 3rem 2rem;
+   text-align: center; 
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-flow: column;
+   transition: .2s linear !important;
+   text-align: center;
+   z-index: 1000;
+}
+
+.header .logo{
+   text-transform: uppercase;
+   border-bottom: var(--border-bold);
+   font-weight: bolder;
+   font-size: 4.5rem;
+}
+
+.header .navbar{
+   width: 100%;
+}
+
+.header .navbar a{
+   display: block;
+   font-size: 2.5rem;
+   padding: 1.5rem;
+   margin: .5rem;
+}
+
+.header .navbar a.active,
+.header .navbar a:hover{
+   background-color: var(--neon);
+}
+
+#menu-btn{
+   position: absolute;
+   top: 0; right: -5.5rem;
+   height: 4.5rem;
+   line-height: 4.5rem;
+   width: 5rem;
+   font-size: 2.5rem;
+   cursor: pointer;
+   color: var(--neon);
+}
+
+.header.active{
+   left: 0;
+}
+
+
+.home{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 2rem;
+   min-height: 100vh;
+}
+
+.home .image{
+   flex: 1 1 40rem;
+}
+
+.home .image img{
+   height: 70rem;
+   padding: 2rem;
+   border: var(--border-bold);
+}
+
+.home .content{
+   flex: 1 1 40rem;
+}
+
+.home .content h3{
+   text-transform: uppercase;
+   font-size: 5rem;
+   margin-bottom: .5rem;
+}
+
+.home .content span{
+   display: inline-block;
+   padding: 1rem 2rem;
+   background-color: var(--matte);
+   font-size: 2.5rem;
+   margin: 1rem 0;
+}
+
+.home .content p{
+   font-size: 1.7rem;
+   line-height: 2;
+   padding: 1rem 0;
+}
+
+.about .biography p{
+   margin: 2rem auto;
+   max-width: 70rem;
+   line-height: 2;
+   font-size: 1.8rem;
+}
+
+.about .biography .bio{
+   margin: 1rem 0;
+}
+
+.about .biography .bio h3{
+   padding: 1rem 2rem;
+   display: inline-block;
+   margin: 1rem;
+   background-color: var(--matte);
+   border: var(--border-light);
+   word-break: break-all;
+   font-size: 2.5rem;
+   font-weight: normal;
+   text-transform: none;
+}
+
+.about .biography .bio h3 span{
+   font-weight: lighter;
+}
+
+
+.portfolio .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+   gap: 1.5rem;
+   align-items: flex-start;
+}
+
+.portfolio .box-container .box img{
+   height: 30rem;
+   width: 100%;
+   object-fit: cover;
+}
+
+.portfolio .box-container .box h3{
+   margin: 1rem 0;
+   font-size: 2rem;
+   font-weight: normal;
+}
+
+.portfolio .box-container .box span{
+   font-size: 1.7rem;
+}
