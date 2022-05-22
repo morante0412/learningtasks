@@ -71,41 +71,43 @@
 <section class="portfolio" id="portfolio">
 
    <h1 class="heading" data-aos="fade-up"> <span>portfolio</span> </h1>
-
+   
    <div class="box-container">
 
-      <div class="box" data-aos="zoom-in">
+      <div class="box">
           <a href="LT2/index.html"><img src="images/img-1.jpg" alt=""></a>
          <h3>cookbook</h3>
          <span>( LT2 )</span>
       </div>
 
-      <div class="box" data-aos="zoom-in">
+      <div class="box">
           <a href="LT3/index.html"><img src="images/img-2.jpg" alt=""></a>
          <h3>songs i'd listen to</h3>
          <span>( LT3 )</span>
       </div>
 
-      <div class="box" data-aos="zoom-in">
+      <div class="box">
           <a href="LT4/index.html"><img src="images/img-3.jpg" alt=""></a>
          <h3>an inspirational quotation</h3>
          <span>( LT4 )</span>
       </div>
 
-      <div class="box" data-aos="zoom-in">
+      <div class="box">
           <a href="CLE1MT/index.html"><img src="images/img-4.jpg" alt=""></a>
          <h3>corruption and society</h3>
          <span>( CLE1MT )</span>
       </div>
 
-      <div class="box" data-aos="zoom-in">
+      <div class="box">
           <a href="LT5/index.html"><img src="images/img-5.jpg" alt=""></a>
          <h3>JS introduction</h3>
          <span>( LT5 )</span>
       </div>
 
-      <div class="box" data-aos="zoom-in">
+      <div class="box">
       </div>
+
+   </div>
 
    </div>
 
