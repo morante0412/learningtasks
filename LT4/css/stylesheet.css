@@ -1,0 +1,44 @@
+:root{
+   --matte: #28282B;
+   --matte2: #4E4E55;
+   --off: #FAF9F6;
+   --neon: #0FFF50;
+}
+
+*{
+   font-family: 'Courier New', monospace;
+   margin: 0; padding: 0;
+   box-sizing: border-box;
+   outline: none; border: none;
+   text-decoration: none;
+   text-transform: capitalize;
+   color: var(--off);
+}
+
+html{
+   font-size: 62.5%;
+}
+
+section{
+   padding: 3rem 2rem;
+   margin: 0 auto;
+   max-width: 1200px;
+   text-align: center;
+}
+
+.about{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   min-height: 100vh;
+}
+
+.about .biography p{
+   display: inline-block;
+   padding: 1rem 2rem;
+   background-color: var(--matte);
+   margin: 2rem auto;
+   max-width: 140rem;
+   line-height: 2;
+   font-size: 2.8rem;
+}
